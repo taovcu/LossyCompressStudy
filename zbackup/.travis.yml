@@ -1,0 +1,18 @@
+sudo: false
+language: cpp
+cache: ccache
+addons:
+  apt:
+    packages:
+    - cmake
+    - libssl-dev
+    - libprotobuf-dev
+    - protobuf-compiler
+    - liblzma-dev
+    - zlib1g-dev
+    - liblzo2-dev
+script:
+  - mkdir objdir
+  - cd objdir
+  - cmake ../
+  - make
