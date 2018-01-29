@@ -19,3 +19,7 @@ To expedite the landing of lossy compression on HPC production platforms, we con
 
 ./run.sh -c isb -i fpc/testdouble\_8\_8\_128.dat -t testdouble\_8\_8\_128.isb
 
+
+##Note, please cite our IPDPS'18 paper if you use any material in this repository. 
+
+Tao Lu, Qing Liu, Xubin He, Huizhang Luo, Eric Suchyta, Norbert Podhorszki, Scott Klasky, Matthew Wolf and Tong Liu, Understanding and Modeling Lossy Compression Schemes on HPC Scientific Data, IEEE International Parallel & Distributed Processing Symposium (IPDPS), 2018.
